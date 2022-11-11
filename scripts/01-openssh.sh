@@ -59,6 +59,7 @@
 #		Enter file in which to save the key (/home/vaamonde/.ssh/id_rsa): /home/vaamonde/.ssh/vaamonde <Enter>
 #		Enter passphrase (empty for no passphrase): <Enter>
 #		Enter same passphrase again: <Enter>
+#   cat ~/.ssh/marcius.pub | ssh marcius@10.18.1.21 "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"  
 #	ssh-copy-id vaamonde@172.16.1.20
 #
 # Importando os pares de chaves Públicas/Privadas utilizando o Powershell
